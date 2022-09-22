@@ -1,16 +1,13 @@
 body {
-    background-color: aqua;
     margin: 0;
 }
 
 #head {
-    background-color: green;
     height: 10vh;
     display: flex;
 }
 
 #main {
-    background-color: greenyellow;
     height: 75vh;
     display: flex;
     justify-content: center;
@@ -28,25 +25,20 @@ body {
 }
 
 #head-left {
-    margin-top: 1vh;
-    background-color: green;
-
+    margin-top: 0.5vh;
 }
 
 #head-right {
-    background-color: blue;
     display: flex;
     justify-content: flex-end;
 }
 
 #main-info {
-    background-color: orange;
     width: 50vw;
     height: 75vh;
 }
 
 #footer-link {
-    background-color: brown;
     display: flex;
     height: 10vh;
 }
@@ -83,7 +75,6 @@ a {
 }
 
 #main-info-google {
-    background-color: white;
     height: 15vh;
     display: flex;
     justify-content: center;
@@ -94,12 +85,10 @@ a {
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    background-color: red;
     height: 5vh;
 }
 
 #main-info-button {
-    background-color: orange;
     height: 5vh;
     display: flex;
     justify-content: center;
@@ -108,7 +97,6 @@ a {
 #main-info-lang {
     display: flex;
     justify-content: center;
-    background-color: white;
     height: 40vh;
     margin-top: 10vh;
     color: #4d5156;
@@ -174,8 +162,14 @@ button {
 
 #main-input-center {
     height: 100%;
+    border: none;
 }
 
 .lang-margin {
     margin-left: 10px;
+}
+
+.button-margin-top {
+    margin-top: 3vh;
+    height: 5vh;
 }
