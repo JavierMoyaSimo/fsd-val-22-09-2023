@@ -163,6 +163,7 @@ button {
 #main-input-center {
     height: 100%;
     border: none;
+    outline: none;
 }
 
 .lang-margin {
